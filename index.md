@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
+# Introduction
 
-You can use the [editor on GitHub](https://github.com/defactodataset/defactodataset.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Digital image forensic has gained a lot of attention as it is becoming easier for anyone to make forged images. Several areas are concerned by image manipulation: a doctored image can increase the credibility of fake news, impostors can use morphed images to pretend being someone else. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It became of critical importance to be able to recognize the manipulations suffered by the images. To do this, the first need is to be able to rely on reliable and controlled data sets representing the most characteristic cases encountered. The purpose of this work is to lay the foundations of a body of tests allowing both the qualification of automatic methods of authentication and detection of manipulations and the training of these methods.
 
-### Markdown
+Various techniques are involved in image manipulations, from simple global characteristics improvements (color enhancement, saturation, color remapping, contrast increase) to complex local forgeries (object incrustation or deletion, camouflage in-painting, morphing of structure) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We propose here a novel Dataset (DEFACTO) containing four forgeries categories :
+1. Copy and Move
+2. Splicing
+3. Object Removal
+4. Morphing
 
-```markdown
-Syntax highlighted code block
+This Dataset has been constructed over [MSCOCO](http://cocodataset.org/#home), and forgeries have been generated automatically.
 
-# Header 1
-## Header 2
-### Header 3
+# Copy-Move
 
-- Bulleted
-- List
+![Example of Copy-Move](/img/cpmf_ex.png)
 
-1. Numbered
-2. List
+About 19000 copy-move forgeries are available under the copymove directory. Each copy-move is accompanied by two binary
+masks.
+One under the probe_mask subdirectory indicates the location of the forgery and one under the donor_mask indicates the 
+location of the source within the image.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+# Splicing
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Examples of Splicing](/img/sp_ex.png)
 
-### Jekyll Themes
+About 105000 splicing forgeries are available under the splicing directory. Each splicing is accompanied by two binary
+masks.
+One under the probe_mask subdirectory indicates the location of the forgery and one under the donor_mask indicates the 
+location of the source. The external image can be found in the JSON file under the graph subdirectory.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/defactodataset/defactodataset.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Object-Removal
 
-### Support or Contact
+![Examples of Object-Removal](/img/inpainting_ex_1.png)
+About 25000 object-removal forgeries are available under the inpainting directory. Each object-removal is accompanied by two 
+binary masks.
+One under the probe_mask subdirectory indicates the location of the forgery and one under the inpaint_mask which is the mask
+use for the inpainting algorithm.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Morphing
+
+![Examples of Face Morphing](/img/morph_ex.png)
+About 40000 face morphing forgeries are available under the face morphing directory. Each face morphing is accompanied by 
+two binary masks.
+One under the probe_mask subdirectory indicates the location of the forgery and one under the donor_mask indicates the 
+location of the source. The external image can be found in the JSON file under the graph subdirectory.
+
+# Dataset access request
+
+To get access to this Dataset, please fill in this [form](https://docs.google.com/forms/d/17yU_WBJGK71wphvewK7hVIzv76v6g26TVEjkF-Mblrw/). You will shortly receive a mail of confirmation and we will process your request.
+
+
+
+# Reference
+
+Blabla
+
+# License
+
+The DEFACTO Consortium does not own the copyright of those images.
+Please refer to the MSCOCO [terms of use](http://cocodataset.org/#termsofuse) for all images based on their Dataset.
+This Dataset also contains images of persons gathered on [IMDB](https://www.imdb.com/). If any of this images
+belongs to you and you wish it to be removed contact us at "mail".
+
