@@ -64,5 +64,5 @@ Blabla
 The DEFACTO Consortium does not own the copyright of those images.
 Please refer to the MSCOCO [terms of use](http://cocodataset.org/#termsofuse) for all images based on their Dataset.
 This Dataset also contains images of persons gathered on [IMDB](https://www.imdb.com/). If any of this images
-belongs to you and you wish it to be removed contact us at "mail".
+belongs to you and you wish it to be removed contact us at defacto.dataset@gmail.com.
 
