@@ -57,23 +57,16 @@ To get access to this Dataset, please fill in this [form](https://docs.google.co
 
 # Reference
 
->@INPROCEEDINGS{Mahf1909:DEFACTO,
->
+>@INPROCEEDINGS{
+>Mahf1909:DEFACTO,
 >AUTHOR="Gaël Mahfoudi and Badr Tajini and Florent Retraint and Fr{\'e}d{\'e}ric
 >Morain-Nicolier and Jean Luc Dugelay and Marc Pic",
->
 >TITLE="{DEFACTO:} Image and Face Manipulation Dataset",
->
 >BOOKTITLE="27th European Signal Processing Conference (EUSIPCO 2019)",
->
 >ADDRESS="A Coruña, Spain",
->
 >DAYS=1,
->
 >MONTH=sep,
->
 >YEAR=2019,
->
 >ABSTRACT="This paper presents a novel dataset for image and face manipulation
 >detection and localization called DEFACTO. The dataset was automatically
 >generated using Microsoft common object in context database (MSCOCO) to
@@ -85,7 +78,6 @@ To get access to this Dataset, please fill in this [form](https://docs.google.co
 >together. Over 200000 images have been generated and each image is
 >accompanied by several annotations allowing precise localization of the
 >forgery and information about the tampering process."
->
 >}
 
 # License
