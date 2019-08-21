@@ -58,14 +58,7 @@ To get access to this Dataset, please fill in this [form](https://docs.google.co
 # Reference
 
 Please refer to the original [paper](https://github.com/defactodataset/defactodataset.github.io/edit/master/defacto.bib)
-<dl>
-<button onclick="myFunction()">Bibtex</button>
-<script>
-function myFunction() {
-  alert("I am an alert box!");
-}
-</script>
-</dl>
+<a href="#" onclick="alert('I am a popup!');">Link</a>
 
 # License
 
