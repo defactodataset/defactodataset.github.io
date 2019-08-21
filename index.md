@@ -59,7 +59,7 @@ To get access to this Dataset, please fill in this [form](https://docs.google.co
 
 Please refer to the original paper :
 
->@INPROCEEDINGS{Mahf1909:DEFACTO,
+>@INPROCEEDINGS{DEFACTODataset,
 >AUTHOR="Gaël Mahfoudi and Badr Tajini and Florent Retraint and Fr{\'e}d{\'e}ric
 >Morain-Nicolier and Jean Luc Dugelay and Marc Pic",
 >TITLE="{DEFACTO:} Image and Face Manipulation Dataset",
@@ -70,6 +70,7 @@ Please refer to the original paper :
 >YEAR=2019
 >}
 
+And the [MSCOCO dataset](http://cocodataset.org/#home)
 # License
 
 The DEFACTO Consortium does not own the copyright of those images.
