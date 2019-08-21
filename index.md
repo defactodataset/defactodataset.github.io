@@ -57,7 +57,7 @@ To get access to this Dataset, please fill in this [form](https://docs.google.co
 
 # Reference
 
-Please refer to the original [paper](defacto.bib)
+Please refer to the original <a href="defacto.bib" download>paper</a>
 
 # License
 
